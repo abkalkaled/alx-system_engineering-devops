@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo useradd -m |sort
+sudo cat /etc/passwd | cut -d: -f1,6 |sort
