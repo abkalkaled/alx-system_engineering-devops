@@ -1,2 +1,2 @@
 #!/bin/nash
-tr "Aa" "Cc" | tr "Zz" "Ee"
+tr "AaCc" "ZzEe"
