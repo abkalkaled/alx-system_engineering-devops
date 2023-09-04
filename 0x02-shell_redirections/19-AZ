@@ -1,0 +1,2 @@
+#!/bin/nash
+tr "A" "c" | tr "Z" "e"
