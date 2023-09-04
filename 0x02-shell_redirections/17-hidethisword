@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cat /eat/passwd | grep -L bin
+sudo cat /eat/passwd | grep -i -v bin
