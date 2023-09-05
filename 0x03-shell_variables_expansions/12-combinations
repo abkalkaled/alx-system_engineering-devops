@@ -1,2 +1,2 @@
 #!/bin/bash
-echo a..n{a..n},p..z{p..z}
+echo a{a..n}..p{a..n},p{p..z}..z{p..z}
