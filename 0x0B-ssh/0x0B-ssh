@@ -6,6 +6,6 @@ file { '/home/ubuntu/.ssh/authorized_keys':
   ensure  => present,
   owner   => 'ubuntu',
   group   => 'ubuntu',
-  mode    => '0600',
+  mode    => '0700',
   content => "$public_key\n",
 }
